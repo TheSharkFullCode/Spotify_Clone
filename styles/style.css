@@ -6,3 +6,138 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    top: 0;
+}
+
+
+img {
+    width: 10%;
+    height: 20%;
+}
+
+nav ul {
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    margin-right: 10px;
+    padding: 0 4px;
+    list-style: none;
+}
+
+header {
+    background-image: url(../assets/images/landing.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    text-align: center;
+}
+
+header>h1,
+p {
+    position: relative;
+    top: 40%;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline #00B172 3px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    margin-left: 50px;
+}
+
+.imgMusic {
+    width: 30%;
+    height: 15%;
+}
+
+h4 {
+    color: #00B172;
+    font-weight: bold;
+}
+
+.infoP {
+    color: rgb(81, 80, 80);
+}
+
+#final {
+    display: flex;
+    position: relative;
+    left: 2%;
+    background-color: #00B172;
+    background-image: url(../assets/images/spotify-icon-white.png);
+    height: 90%;
+    width: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90px;
+
+}
+
+#finalTitle {
+    color: white;
+    text-decoration: underline white 2px;
+}
+
+#spotifyApp {
+    margin-top: 10%;
+    width: 80%;
+    height: 90%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#final {
+    display: flex;
+    position: relative;
+    left: 2%;
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    height: 90%;
+    width: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90px;
+
+}
+
+#spotifyApp {
+    position: relative;
+    left: 90%;
+}
