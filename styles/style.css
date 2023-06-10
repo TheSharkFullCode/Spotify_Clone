@@ -5,25 +5,22 @@
 
 #header{
     
-    height: 120px;
+    height: 130px;
     width: 100%;
-    
     display: flex;
-    
-    top: 0%;
     align-items: center;
     justify-content: space-between;
     align-items: flex-end;
-
-
+    background-color: white;
+    
 
 }
+
 a{
     text-decoration: none;
 }
 
 #logo{
-
     width: 200px;
     height: 100px;
     
@@ -48,63 +45,63 @@ justify-content: space-around;
     align-items: center;
     justify-content: center;
 }   
-/* 
-#landing>h1,p{
 
-    color: white;
-    
 
-} */
-
-#contenido2,h1{
+#contenido2{
     text-align: center;
-
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: start;
-
-
+    text-decoration:underline;
 
 }
 
-.box1{
-    
+.box1{    
     display: flex;
-    justify-content: space-around;
     width: 200px;
+    height: 170.08px;
     justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-    
+    flex-direction: column;  
 
 }
-.colecbox{
-    width: 110px;
-
-
-}
-
-.box2{
-
-width: 200px;
-}
-
 
 #BoxContainer{
 display: flex;
-justify-content: space-between;
-flex-direction: row;
-gap: 200px;
-justify-content: center;
-align-items: flex-end;
+justify-content: space-evenly;
+margin-top: 5em;
+
 
 
 }
 
-.colecbox{
-    display: flex;
-    flex-direction: row;
-    align-items: start;
+img.colecbox{
+    display: flex;    
+    width: 200px;
+    height: 170.08px;
     justify-content: center;
+    flex-direction: column;  
+
 }
+
+div.box2{
+    display: flex;
+    width: 200px;
+    height: 170.08px;
+    justify-content: center;
+    flex-direction: column;  
+
+}
+div.box3{
+    display: flex;
+    width: 200px;
+    height: 170.08px;
+    justify-content: center;
+    flex-direction: column;  
+}
+
+
+#seccionFinal{
+    background-color: darkgreen;
+    margin-top: 5em;
+
+}
+
